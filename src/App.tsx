@@ -1,7 +1,7 @@
+import Text from "./components/text";
+
 export default function App() {
   return (
-    <div className="text">
-      <h1>Hello World</h1>
-    </div>
+    <Text as="p" className="">Opa!</Text>
   );
 }
